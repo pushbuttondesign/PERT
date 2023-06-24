@@ -1,0 +1,220 @@
+,TODO: Add Firmware AWS dependencies to this plan - waiting for complete schedule,,,,,,,,,,,,,,,
+,"*This timeline starts with a snapshot of the project at 13/2/23 as Steve's starting date, anything completed before that date shows 1 days duration from that date. Scope & perspective is for 1st party camera & doorbell & 2x bypass box hardware and firmware Telus product management and associated dependencies to MVE1 only. Other teams & projects  only show key dependency intergration points (AWS API deliverables or sign-off & receving FXN prototypes. Note that this plan assumes FXN building the firmware and soft tooling for prototype builds.",,,,,,,,,RACI,,,Approval Forum,,,
+Used to keep predecessors constant,,,,,,,,,,,,,,,,"Created by copying the start date column and pasting formulars only, then deleting the '='"
+Index,Milestone,Task,Start Date,Duration (Days),End Date,Status,Team,Critical External Dependency,On Critical Path,Accountable,Responsible,,CHH,PWG,SH2,Predecessor Dependencies
+5,ROLL UP,Total,"February 13, 2023",-,"February 19, 2024",In Progress,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,FALSE,FALSE,MAX(Q6:Q220)
+6,ROLL UP,G0,"February 13, 2023",-,"April 14, 2023",In Progress,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,FALSE,FALSE,MIN(Q7:Q28)
+7,G0 - Concept (VA),"Agree project charter w/ goals, constraints, scope, ways of working & governance","February 13, 2023",32,"March 17, 2023",Done,TLS,No,No,Steve Humpston,Brandon Oevering,,FALSE,FALSE,TRUE,"February 13, 2023"
+8,G0 - Concept (VA),"Agree description of product value for buisness & user with feasable idea & key technologies, partners, processes identified ","February 13, 2023",32,"March 17, 2023",Done,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,FALSE,TRUE,Q$7
+9,G0 - Concept (VA),Identify RACI Stakeholders,"February 13, 2023",32,"March 17, 2023",Done,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,FALSE,FALSE,Q$7
+10,G0 - Concept (VA),Draft buisness case,"February 13, 2023",32,"March 17, 2023",Done,TLS,No,No,Steve Humpston,Logan Whyte,Jacob Pullia,FALSE,FALSE,FALSE,Q$8
+11,G0 - Concept (VA),Agree target market & sales regions,"February 13, 2023",32,"March 17, 2023",Done,TLS,No,No,Steve Humpston,Logan Whyte,Jacob Pullia,FALSE,FALSE,TRUE,Q$9
+12,G0 - Concept (VA),Assign MLT & SBC budget,"February 13, 2023",15,"February 28, 2023",Not Started,TLS,No,No,Steve Humpston,Trevor Hunton,Pragna Chandrasekhar,TRUE,FALSE,FALSE,Q$10
+13,G0 - Concept (VA),Agree work breakdown structure between teams,"February 13, 2023",46,"March 31, 2023",In Progress,AWS,No,No,Steve Humpston,sabahatk@amazon.com,Donna Verge,FALSE,FALSE,TRUE,Q$11
+14,G0 - Concept (VA),Agree MVE & sprint release schedule,"February 13, 2023",46,"March 31, 2023",In Progress,AWS,No,No,Steve Humpston,sabahatk@amazon.com,Donna Verge,FALSE,FALSE,TRUE,Q$12
+15,G0 - Concept (VA),Identify key dependencies & syncronisation points,"February 13, 2023",32,"March 17, 2023",Done,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,FALSE,FALSE,Q$13
+16,G0 - Concept (VA),Demo MVP prototype,"February 13, 2023",34,"March 19, 2023",Not Started,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,FALSE,FALSE,Q$14
+17,G0 - Concept (VA),Conduct user & market research to justify product requirements,"February 13, 2023",46,"March 31, 2023",Not Started,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,FALSE,FALSE,Q$15
+18,G0 - Concept (VA),Estimate people & CAPEX resources required,"February 13, 2023",32,"March 17, 2023",Done,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,FALSE,FALSE,Q$16
+19,G0 - Concept (VA),Hire new team member to support 3rd party vendor management inc. camera/doorbell backup plan,"March 17, 2023",10,"March 27, 2023",In Progress,TLS,No,No,Steve Humpston,Raymond Chow,,FALSE,FALSE,FALSE,S18
+20,G0 - Concept (VA),Agree product requirements & validation tests for hardware,"March 17, 2023",14,"March 31, 2023",In Progress,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,FALSE,TRUE,S8
+21,G0 - Concept (VA),Agree product requirements & validation tests for firmware,"March 31, 2023",11,"April 11, 2023",In Progress,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,FALSE,TRUE,S20
+22,G0 - Concept (VA),Agree product architecture diagram,"March 17, 2023",5,"March 22, 2023",Done,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,FALSE,TRUE,S8
+23,G0 - Concept (VA),Complete technical feasability analysis,"February 13, 2023",32,"March 17, 2023",Done,TLS,No,No,Steve Humpston,Shing Lee,Derrick Morrison,FALSE,FALSE,FALSE,Q$7
+24,G0 - Concept (VA),Complete competitor testing & analysis,"February 13, 2023",42,"March 27, 2023",In Progress,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,FALSE,FALSE,Q$7
+25,G0 - Concept (VA),Start tracking risks,"April 11, 2023",1,"April 12, 2023",Done,TLS,No,No,Steve Humpston,Steve Humpston,,TRUE,FALSE,FALSE,max(S$7:S$24)
+26,G0 - Concept (VA),"Start status reporting against agreed KPIs, timeline & budget","April 11, 2023",1,"April 12, 2023",Done,TLS,No,No,Steve Humpston,Steve Humpston,,TRUE,FALSE,FALSE,max(S$7:S$24)
+27,G0 - Concept (VA),Start project decision log,"April 11, 2023",1,"April 12, 2023",Not Started,TLS,No,No,Steve Humpston,Steve Humpston,,TRUE,FALSE,FALSE,max(S$7:S$24)
+28,G0 - Concept (VA),G0 milestone review,"April 13, 2023",1,"April 14, 2023",Not Started,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,FALSE,TRUE,max(S25:S27)+1
+29,ROLL UP,G1,"February 13, 2023",-,"May 16, 2023",In Progress,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,FALSE,FALSE,MIN(Q30:Q63)
+30,G1 - Target (TS),Review imaging system prototype performance from FXN,"February 13, 2023",32,"March 17, 2023",Done,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,Q$7
+31,G1 - Target (TS),Review edge AI development kit performance,"February 13, 2023",32,"March 17, 2023",Done,TLS,No,No,Steve Humpston,Shing Lee,Kaicheng Zhang,FALSE,FALSE,FALSE,Q$8
+32,G1 - Target (TS),Review AZT prototype performance,"February 13, 2023",32,"March 17, 2023",Done,AWS,No,No,Steve Humpston,xchenam@lab126.com,,FALSE,FALSE,FALSE,Q$9
+33,G1 - Target (TS),Review concept thermal simulation test results,"February 13, 2023",46,"March 31, 2023",In Progress,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,Q$10
+34,G1 - Target (TS),Build looks-like & physical intraction prototypes in inform Industrial Design direction,"February 13, 2023",46,"March 31, 2023",In Progress,TLS,No,No,Steve Humpston,Kirill Kudymov,,TRUE,FALSE,FALSE,Q$11
+35,G1 - Target (TS),Agree product specifications & verification tests for Hardware,"March 17, 2023",39,"April 25, 2023",In Progress,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,TRUE,FALSE,Q20
+36,G1 - Target (TS),Agree product specifications & verification tests for Firmware,"March 31, 2023",12,"April 12, 2023",In Progress,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,TRUE,FALSE,Q21
+37,G1 - Target (TS),Raise serial numbers for all new SKUs,"April 14, 2023",30,"May 14, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S28
+38,G1 - Target (TS),Complete freedom to operate IP review,"April 12, 2023",12,"April 24, 2023",Not Started,TLS,No,No,Steve Humpston,Mark Kay,,FALSE,FALSE,FALSE,S36
+39,G1 - Target (TS),Agree industrial design concept for doorbell & 2x bypass box,"February 13, 2023",32,"March 17, 2023",Done,TLS,No,No,Steve Humpston,Kirill Kudymov,,FALSE,TRUE,FALSE,Q$7
+40,G1 - Target (TS),Customise doorbell & 2x bypass box refference design housing CAD,"February 13, 2023",14,"February 27, 2023",Done,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,Q$7
+41,G1 - Target (TS),Customise doorbell & 2x bypass box refference design schematic,"February 13, 2023",4,"February 17, 2023",Done,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,Q$8
+42,G1 - Target (TS),Customise doorbell & 2x bypass box refference design placement,"February 13, 2023",3,"February 16, 2023",Done,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,Q$9
+43,G1 - Target (TS),Customise doorbell & 2x bypass box refference design layout,"February 13, 2023",5,"February 18, 2023",Done,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,Q$10
+44,G1 - Target (TS),Customise doorbell & 2x bypass box refference design gerber,"February 13, 2023",3,"February 16, 2023",Done,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,Q$11
+45,G1 - Target (TS),Agree industrial design concept for indoor camera,"February 13, 2023",39,"March 24, 2023",In Progress,TLS,No,No,Steve Humpston,Kirill Kudymov,,FALSE,TRUE,FALSE,Q$12
+46,G1 - Target (TS),Customise indoor camera refference design housing CAD,"March 24, 2023",14,"April 7, 2023",In Progress,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S45
+47,G1 - Target (TS),Customise indoor camera refference design schematic,"April 25, 2023",4,"April 29, 2023",Done,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S35
+48,G1 - Target (TS),Customise indoor camera refference design placement,"April 29, 2023",3,"May 2, 2023",Done,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S47
+49,G1 - Target (TS),Customise indoor camera refference design layout,"May 2, 2023",5,"May 7, 2023",Done,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S48
+50,G1 - Target (TS),Customise indoor camera refference design gerber,"May 7, 2023",3,"May 10, 2023",Done,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S49
+51,G1 - Target (TS),Agree industrial design concept for outdoor camera,"February 13, 2023",46,"March 31, 2023",In Progress,TLS,No,No,Steve Humpston,Kirill Kudymov,,FALSE,TRUE,FALSE,Q$7
+52,G1 - Target (TS),Customise outdoor camera refference design housing CAD,"March 31, 2023",14,"April 14, 2023",In Progress,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S51
+53,G1 - Target (TS),Customise outdoor camera refference design schematic,"April 25, 2023",4,"April 29, 2023",Done,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S35
+54,G1 - Target (TS),Customise outdoor camera refference design placement,"April 29, 2023",3,"May 2, 2023",Done,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S53
+55,G1 - Target (TS),Customise outdoor camera refference design layout,"May 2, 2023",5,"May 7, 2023",Done,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S54
+56,G1 - Target (TS),Customise outdoor camera refference design gerber,"May 7, 2023",3,"May 10, 2023",Done,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S55
+57,G1 - Target (TS),Sign all SoW contracts with AWS,"February 13, 2023",60,"April 14, 2023",In Progress,TLS,No,No,Steve Humpston,Max Gaspranov,Garry Gross,FALSE,FALSE,FALSE,Q$7
+58,G1 - Target (TS),Sign development contract with FXN,"February 13, 2023",60,"April 14, 2023",In Progress,TLS,No,No,Steve Humpston,Dala Taher,Raymond Chow,FALSE,FALSE,FALSE,Q$7
+59,G1 - Target (TS),Sign development contract with Syntiant,"February 13, 2023",60,"April 14, 2023",In Progress,TLS,No,No,Steve Humpston,Greg Macaltao,Raymond Chow,FALSE,FALSE,FALSE,Q$7
+60,G1 - Target (TS),Update risk tracker,"May 14, 2023",1,"May 15, 2023",Not Started,TLS,No,No,Steve Humpston,Steve Humpston,,TRUE,FALSE,FALSE,max(S$30:S$59)
+61,G1 - Target (TS),"Update status reporting against agreed KPIs, timeline & budget","May 14, 2023",1,"May 15, 2023",Not Started,TLS,No,No,Steve Humpston,Steve Humpston,,TRUE,FALSE,FALSE,max(S$30:S$59)
+62,G1 - Target (TS),Update project decision log,"May 14, 2023",1,"May 15, 2023",Not Started,TLS,No,No,Steve Humpston,Steve Humpston,,TRUE,FALSE,FALSE,max(S$30:S$59)
+63,G1 - Target (TS),G1 milestone review,"May 15, 2023",1,"May 16, 2023",Not Started,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,TRUE,FALSE,max(S60:S62)
+64,ROLL UP,G2,"February 13, 2023",-,"July 13, 2023",In Progress,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,FALSE,FALSE,min(Q65:Q131)
+65,G2 - Design (SD),"Define in-box accessories, instructions & install material & add to BOM & spec","April 14, 2023",4,"April 18, 2023",Not Started,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,TRUE,FALSE,S28
+66,G2 - Design (SD),Create packaging design files and add to BOM,"March 31, 2023",14,"April 14, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,"max(S39,S45,S51)"
+67,G2 - Design (SD),Sign-off packaging prototype design,"April 14, 2023",7,"April 21, 2023",Not Started,TLS,No,No,Steve Humpston,Steve Humpston,,TRUE,TRUE,FALSE,S66
+68,G2 - Design (SD),Build packaging prototypes,"April 21, 2023",7,"April 28, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S67
+69,G2 - Design (SD),Verification test packaging prototype at FXN,"April 28, 2023",7,"May 5, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S68
+70,G2 - Design (SD),Ship packaging prototypes to Canada,"May 5, 2023",7,"May 12, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S69
+71,G2 - Design (SD),Validation test packaging prototype at TLS and sign-off,"May 12, 2023",7,"May 19, 2023",Not Started,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,TRUE,FALSE,S70
+72,G2 - Design (SD),Confirm quantaties of all prototype samples,"February 13, 2023",14,"February 27, 2023",Done,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,FALSE,TRUE,Q$7
+73,G2 - Design (SD),1st risk buy parts for all prototype samples,"February 13, 2023",21,"March 6, 2023",Done,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,FALSE,TRUE,Q$7
+74,G2 - Design (SD),2nd risk buy parts for all prototype samples,"February 27, 2023",7,"March 6, 2023",In Progress,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,FALSE,TRUE,S72
+75,G2 - Design (SD),Cut doorbell & 2x bypass box EVT-1 soft tool & mold parts,"February 13, 2023",34,"March 19, 2023",Done,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,TRUE,FALSE,Q$7
+76,G2 - Design (SD),Fabricate doorbell & 2x bypass box EVT-1 PCB,"February 13, 2023",34,"March 19, 2023",Done,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,TRUE,FALSE,Q$7
+77,G2 - Design (SD),Assemble EVT-1 doorbell & 2x bypass box prototypes,"February 13, 2023",34,"March 19, 2023",Done,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,Q$7
+78,G2 - Design (SD),Verification test EVT-1 doorbell & 2x bypass box prototypes at FXN,"February 13, 2023",34,"March 19, 2023",Done,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,Q$7
+79,G2 - Design (SD),Ship EVT-1 doorbell & 2x bypass box prototypes to Canada,"February 13, 2023",34,"March 19, 2023",Done,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,Q$7
+80,G2 - Design (SD),Verification test EVT-1 doorbell & 2x bypass box prototypes at TLS,"February 13, 2023",34,"March 19, 2023",Done,TLS,No,No,Steve Humpston,Shing Lee,,FALSE,FALSE,FALSE,Q$7
+81,G2 - Design (SD),Mould doorbell & 2x bypass box EVT-2 parts,"February 13, 2023",34,"March 19, 2023",Done,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,Q$7
+82,G2 - Design (SD),Make design changes to PCB,"February 13, 2023",34,"March 19, 2023",Done,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,Q$7
+83,G2 - Design (SD),Fabricate doorbell & 2x bypass box EVT-2 PCB,"February 13, 2023",34,"March 19, 2023",Done,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,TRUE,FALSE,Q$7
+84,G2 - Design (SD),Assemble EVT-2 doorbell & 2x bypass box prototypes,"February 13, 2023",2,"February 15, 2023",Done,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,Q$7
+85,G2 - Design (SD),Verification & validation test EVT-2 doorbell & 2x bypass box prototypes at FXN,"February 13, 2023",46,"March 31, 2023",In Progress,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,Q$7
+86,G2 - Design (SD),Make design changes to PCB and thermal solution,"March 31, 2023",10,"April 10, 2023",In Progress,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S85
+87,G2 - Design (SD),Modifiy doorbell & 2x bypass box soft tool to EVT-3 & mold parts,"March 31, 2023",10,"April 10, 2023",In Progress,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S85
+88,G2 - Design (SD),Fabricate doorbell & 2x bypass box EVT-3 PCB,"April 10, 2023",10,"April 20, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S86
+89,G2 - Design (SD),Rework EVT-2 doorbell & 2x bypass box prototypes into EVT-3,"April 20, 2023",7,"April 27, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S88
+90,G2 - Design (SD),Verification & validation test EVT-3 doorbell & 2x bypass box prototypes at FXN,"April 27, 2023",7,"May 4, 2023",In Progress,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S89
+91,G2 - Design (SD),"Conduct doorbell & 2x bypass box regulatory EMC & EMI pre-scan testing at FXN for CAN, USA, EU, UK, AUS","April 27, 2023",14,"May 11, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S$89
+92,G2 - Design (SD),Conduct doorbell & 2x bypass box stress testing,"April 27, 2023",14,"May 11, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S$89
+93,G2 - Design (SD),Conduct doorbell & 2x bypass box accelerated lifetime testing,"April 27, 2023",14,"May 11, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S$89
+94,G2 - Design (SD),Ship EVT-3 doorbell & 2x bypass box prototypes to Canada,"May 4, 2023",7,"May 11, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S90
+95,G2 - Design (SD),Verification & validation test EVT-3 doorbell & 2x bypass box prototypes at TLS,"May 11, 2023",28,"June 8, 2023",Not Started,TLS,No,No,Steve Humpston,Shing Lee,,FALSE,FALSE,FALSE,S94
+96,G2 - Design (SD),Sign-off doorbell & 2x bypass box industrial design & add to specification,"May 11, 2023",28,"June 8, 2023",Not Started,TLS,No,No,Steve Humpston,Shing Lee,,TRUE,FALSE,FALSE,S94
+97,G2 - Design (SD),Sign-off doorbell & 2x bypass box test results,"June 8, 2023",7,"June 15, 2023",Not Started,TLS,No,No,Steve Humpston,Shing Lee,,TRUE,FALSE,FALSE,S95
+98,G2 - Design (SD),Ship EVT-3 doorbell & 2x bypass box prototypes to developers,"May 11, 2023",7,"May 18, 2023",Not Started,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,FALSE,FALSE,S94
+99,G2 - Design (SD),Cut indoor camera EVT-1 soft tools & mould parts,"April 7, 2023",14,"April 21, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,TRUE,FALSE,S46
+100,G2 - Design (SD),Fabricate indoor camera EVT-1 PCB,"May 10, 2023",12,"May 22, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S50
+101,G2 - Design (SD),Assemble EVT-1 indoor camera prototypes,"May 22, 2023",2,"May 24, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,max(S99:S100)
+102,G2 - Design (SD),Verification & validation test EVT-1 indoor camera prototype at FXN,"May 24, 2023",7,"May 31, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S$101
+103,G2 - Design (SD),"Conduct indoor camera EVT-1 regulatory EMC & EMI pre-scan testing at FXN for CAN, USA, EU, UK, AUS","May 24, 2023",14,"June 7, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S$101
+104,G2 - Design (SD),Conduct indoor camera EVT-1 stress testing,"May 24, 2023",14,"June 7, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S$101
+105,G2 - Design (SD),Conduct indoor camera EVT-1 accelerated lifetime testing,"May 24, 2023",14,"June 7, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S$101
+106,G2 - Design (SD),Ship EVT-1 indoor camera prototypes to Canada,"May 31, 2023",7,"June 7, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S102
+107,G2 - Design (SD),Verification & validation test EVT-1 indoor camera prototype at TLS,"June 7, 2023",7,"June 14, 2023",Not Started,TLS,No,No,Steve Humpston,Shing Lee,,FALSE,FALSE,FALSE,S106
+108,G2 - Design (SD),Sign-off indoor camera EVT-1 industrial design & add to specification,"June 7, 2023",7,"June 14, 2023",Not Started,TLS,No,No,Steve Humpston,Shing Lee,,TRUE,FALSE,FALSE,S$106
+109,G2 - Design (SD),Sign-off indoor camera EVT-1 test results,"June 14, 2023",7,"June 21, 2023",Not Started,TLS,No,No,Steve Humpston,Shing Lee,,TRUE,FALSE,FALSE,S$107
+110,G2 - Design (SD),Ship indoor camera EVT-1  prototypes to developers,"June 7, 2023",7,"June 14, 2023",Not Started,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,FALSE,FALSE,S106
+111,G2 - Design (SD),Cut outdoor camera EVT-2 soft tools & mould parts,"April 14, 2023",14,"April 28, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,TRUE,FALSE,S52
+112,G2 - Design (SD),Fabricate outdoor camera EVT-2 PCB,"May 10, 2023",12,"May 22, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S56
+113,G2 - Design (SD),Assemble EVT-2 outdoor camera prototypes,"May 22, 2023",2,"May 24, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,max(S111:S112)
+114,G2 - Design (SD),Verification & validation test EVT-2 outdoor camera prototype at FXN,"May 24, 2023",7,"May 31, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S113
+115,G2 - Design (SD),"Conduct outdoor camera regulatory EMC & EMI pre-scan testing at FXN for CAN, USA, EU, UK, AUS","May 24, 2023",14,"June 7, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S$113
+116,G2 - Design (SD),Conduct outdoor camera stress testing,"May 24, 2023",14,"June 7, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S$113
+117,G2 - Design (SD),Conduct outdoor camera accelerated lifetime testing,"May 24, 2023",14,"June 7, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S$113
+118,G2 - Design (SD),Ship EVT-2 outdoor camera prototypes to Canada,"May 31, 2023",7,"June 7, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S114
+119,G2 - Design (SD),Verification & validation test EVT-1 outdoor camera prototype at TLS,"June 7, 2023",7,"June 14, 2023",Not Started,TLS,No,No,Steve Humpston,Shing Lee,,FALSE,FALSE,FALSE,S118
+120,G2 - Design (SD),Sign-off outdoor camera industrial design & add to specification,"June 7, 2023",7,"June 14, 2023",Not Started,TLS,No,No,Steve Humpston,Shing Lee,,TRUE,FALSE,FALSE,S118
+121,G2 - Design (SD),Sign-off outdoor camera test results,"June 14, 2023",7,"June 21, 2023",Not Started,TLS,No,No,Steve Humpston,Shing Lee,,TRUE,FALSE,FALSE,S120
+122,G2 - Design (SD),Ship EVT-2 outdoor camera prototypes to developers,"June 7, 2023",7,"June 14, 2023",Not Started,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,FALSE,FALSE,S118
+123,G2 - Design (SD),File for any new IP created,"May 16, 2023",33,"June 18, 2023",Not Started,TLS,No,No,Steve Humpston,Mark Kay,,FALSE,FALSE,FALSE,S$63
+124,G2 - Design (SD),Conduct DFMEA,"May 16, 2023",33,"June 18, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S$63
+125,G2 - Design (SD),Finalise BOM & vendor + alt. selection,"May 16, 2023",33,"June 18, 2023",In Progress,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S$63
+126,G2 - Design (SD),Finalise buisness case based on BOM COGS analysis,"June 18, 2023",9,"June 27, 2023",Not Started,TLS,No,No,Steve Humpston,Logan Whyte,Jacob Pullia,FALSE,FALSE,FALSE,S125
+127,G2 - Design (SD),"Sign-off all design documentation based on passed test results: artwork files, CAD, drawings, BOM, vendors, COGS, DFMEA, code, schematic, layout, gerber","June 27, 2023",14,"July 11, 2023",Not Started,TLS,No,No,Steve Humpston,Steve Humpston,,TRUE,FALSE,FALSE,"max(S97,S109,S121,S126,S125,S124)"
+128,G2 - Design (SD),Update risk tracker,"July 11, 2023",1,"July 12, 2023",Not Started,TLS,No,No,Steve Humpston,Steve Humpston,,TRUE,FALSE,FALSE,max(S$65:S$127)
+129,G2 - Design (SD),"Update status reporting against agreed KPIs, timeline & budget","July 11, 2023",1,"July 12, 2023",Not Started,TLS,No,No,Steve Humpston,Steve Humpston,,TRUE,FALSE,FALSE,max(S$65:S$127)
+130,G2 - Design (SD),Update project decision log,"July 11, 2023",1,"July 12, 2023",Not Started,TLS,No,No,Steve Humpston,Steve Humpston,,TRUE,FALSE,FALSE,max(S$65:S$127)
+131,G2 - Design (SD),G2 milestone review,"July 12, 2023",1,"July 13, 2023",Not Started,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,TRUE,FALSE,max(S127:S130)
+132,ROLL UP,G3,"February 13, 2023",-,"November 21, 2023",In Progress,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,FALSE,FALSE,MIN(Q133:Q187)
+133,G3 - Build (ER),AWS provide KVS & WebRTC SDK & FXN to implement in firmware,"February 13, 2023",1,"February 14, 2023",Done,AWS,Yes,No,Steve Humpston,vanidesa@amazon.com,ic.il.lin@FXN.com,FALSE,FALSE,FALSE,Q$7
+134,G3 - Build (ER),AWS provdie IoT core SDK & MQTT definitions & FXN to implement in firmware,"July 19, 2023",30,"August 18, 2023",Not Started,AWS,Yes,No,Steve Humpston,vanidesa@amazon.com,ic.il.lin@FXN.com,FALSE,FALSE,FALSE,S134-R134
+135,G3 - Build (ER),AWS provide provisionee agent API & FXN to implement in firmware,"July 19, 2023",30,"August 18, 2023",Not Started,AWS,Yes,No,Steve Humpston,vanidesa@amazon.com,ic.il.lin@FXN.com,FALSE,FALSE,FALSE,S135-R135
+136,G3 - Build (ER),Select quality control test methods,"June 8, 2023",7,"June 15, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,TRUE,FALSE,S$95
+137,G3 - Build (ER),Cut T0 DVT tool for doorbell & 2x bypass box,"June 15, 2023",20,"July 5, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,TRUE,FALSE,S97
+138,G3 - Build (ER),Fly PM to China for tool approval,"July 5, 2023",1,"July 6, 2023",Not Started,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,FALSE,FALSE,S137
+139,G3 - Build (ER),Verification test T0 DVT doorbell & 2x bypass box sample against industrial design specifications at FXN,"July 5, 2023",1,"July 6, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S137
+140,G3 - Build (ER),Modifiy T0 DVT doorbell & 2x bypass box -> T1 tool,"July 6, 2023",3,"July 9, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S139
+141,G3 - Build (ER),Verification test T1 DVT doorbell & 2x bypass box sample against industrial design specifications at FXN,"July 9, 2023",1,"July 10, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S140
+142,G3 - Build (ER),Modifiy T1 DVT doorbell & 2x bypass box -> T2 tool,"July 10, 2023",3,"July 13, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S141
+143,G3 - Build (ER),Verification test T2 DVT doorbell & 2x bypass box sample against industrial design specifications at FXN,"July 13, 2023",1,"July 14, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S142
+144,G3 - Build (ER),Modifiy T2 DVT doorbell & 2x bypass box -> T3 tool,"July 14, 2023",3,"July 17, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S143
+145,G3 - Build (ER),Verification test T3 DVT doorbell & 2x bypass box sample against industrial design specifications at FXN,"July 17, 2023",1,"July 18, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S144
+146,G3 - Build (ER),Modifiy T3 DVT doorbell & 2x bypass box -> T4 tool,"July 18, 2023",3,"July 21, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S145
+147,G3 - Build (ER),Sign-off doorbell & 2x bypass box T4 tool to TFinal,"July 21, 2023",1,"July 22, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,TRUE,FALSE,FALSE,S146
+148,G3 - Build (ER),Mould x315 TFinal DVT doorbell & 2x bypass box parts,"July 22, 2023",3,"July 25, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S147
+149,G3 - Build (ER),Fabricate x315 DVT doorbell & 2x bypass box PCBs,"June 15, 2023",15,"June 30, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S97
+150,G3 - Build (ER),Assemble x315 DVT doorbell & 2x bypass box samples for EMT,"July 25, 2023",2,"July 27, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,max(S148:S149)
+151,G3 - Build (ER),Quality test x315 DVT doorbell & 2x bypass box samples for EMT,"July 27, 2023",2,"July 29, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S150
+152,G3 - Build (ER),Cut T0 DVT tool for indoor camera,"June 21, 2023",20,"July 11, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,TRUE,FALSE,S109
+153,G3 - Build (ER),Verification test T0 DVT indoor camera sample against industrial design specifications at FXN,"July 11, 2023",1,"July 12, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S152
+154,G3 - Build (ER),Modifiy T0 DVT indoor camera  -> T1 tool,"July 12, 2023",3,"July 15, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S153
+155,G3 - Build (ER),Verification test T1 DVT indoor camera sample against industrial design specifications at FXN,"July 15, 2023",1,"July 16, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S154
+156,G3 - Build (ER),Modifiy T1 DVT indoor camera -> T2 tool,"July 16, 2023",3,"July 19, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S155
+157,G3 - Build (ER),Verification test T2 DVT indoor camera sample against industrial design specifications at FXN,"July 19, 2023",1,"July 20, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S156
+158,G3 - Build (ER),Modifiy T2 DVT indoor camera -> T3 tool,"July 20, 2023",3,"July 23, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S157
+159,G3 - Build (ER),Verification test T3 DVT indoor camera sample against industrial design specifications at FXN,"July 23, 2023",1,"July 24, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S158
+160,G3 - Build (ER),Modifiy T3 DVT indoor camera -> T4 tool,"July 24, 2023",3,"July 27, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S159
+161,G3 - Build (ER),Sign-off indoor camera T4 tool to TFinal,"July 27, 2023",1,"July 28, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,TRUE,FALSE,FALSE,S160
+162,G3 - Build (ER),Mould x315 TFinal DVT indoor camera parts,"July 28, 2023",3,"July 31, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S161
+163,G3 - Build (ER),Fabricate x315 DVT indoor camera PCBs,"May 24, 2023",15,"June 8, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S113
+164,G3 - Build (ER),Assemble x315 DVT indoor camera samples for EMT,"July 31, 2023",2,"August 2, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,max(S162:S163)
+165,G3 - Build (ER),Quality test x315 DVT indoor camera samples for EMT,"August 2, 2023",2,"August 4, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S164
+166,G3 - Build (ER),Cut T0 DVT tool for outdoor camera,"June 21, 2023",20,"July 11, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,TRUE,FALSE,S121
+167,G3 - Build (ER),Verification test T0 DVT outdoor camera sample against industrial design specifications at FXN,"July 11, 2023",1,"July 12, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S166
+168,G3 - Build (ER),Modifiy T0 DVT outdoor camera  -> T1 tool,"July 12, 2023",3,"July 15, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S167
+169,G3 - Build (ER),Verification test T1 DVT outdoor camera sample against industrial design specifications at FXN,"July 15, 2023",1,"July 16, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S168
+170,G3 - Build (ER),Modifiy T1 DVT outdoor camera -> T2 tool,"July 16, 2023",3,"July 19, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S169
+171,G3 - Build (ER),Verification test T2 DVT outdoor sample against industrial design specifications at FXN,"July 19, 2023",1,"July 20, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S170
+172,G3 - Build (ER),Modifiy T2 DVT outdoor camera -> T3 tool,"July 20, 2023",3,"July 23, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S171
+173,G3 - Build (ER),Verification test T3 DVT outdoor camera sample against industrial design specifications at FXN,"July 23, 2023",1,"July 24, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S172
+174,G3 - Build (ER),Modifiy T3 DVT outdoor camera -> T4 tool,"July 24, 2023",3,"July 27, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S173
+175,G3 - Build (ER),Sign-off outdoor camera T4 tool to TFinal,"July 27, 2023",1,"July 28, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,TRUE,FALSE,FALSE,S174
+176,G3 - Build (ER),Mould x315 TFinal DVT outdoor camera parts,"July 28, 2023",3,"July 31, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S175
+177,G3 - Build (ER),Fabricate x315 DVT outdoor camera PCBs,"July 12, 2023",15,"July 27, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S129
+178,G3 - Build (ER),Assemble x315 DVT outdoor camera samples for EMT,"July 31, 2023",2,"August 2, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,max(S176:S177)
+179,G3 - Build (ER),Quality test x315 DVT outdoor camera samples for EMT,"August 2, 2023",2,"August 4, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S178
+180,G3 - Build (ER),Fly PM home after tool approval,"August 4, 2023",1,"August 5, 2023",Not Started,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,FALSE,FALSE,"max(S179,S165,S151)"
+181,G3 - Build (ER),Ship all the DVT samples for EMT to Archway,"August 4, 2023",7,"August 11, 2023",Not Started,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,FALSE,FALSE,"max(S179,S165,S151)"
+182,G3 - Build (ER),"Final regulatory certification testing using DVT samples for CAN, USA, EU, UK, AUS","August 4, 2023",105,"November 17, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,"max(S179,S165,S151)"
+183,G3 - Build (ER),Agree marketing & sales inputs,"April 18, 2023",91,"July 18, 2023",Not Started,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,TRUE,FALSE,S65
+184,G3 - Build (ER),Update risk tracker,"November 17, 2023",1,"November 18, 2023",Not Started,TLS,No,No,Steve Humpston,Steve Humpston,,TRUE,FALSE,FALSE,max(S133:S183)
+185,G3 - Build (ER),"Update status reporting against agreed KPIs, timeline & budget","November 18, 2023",1,"November 19, 2023",Not Started,TLS,No,No,Steve Humpston,Steve Humpston,,TRUE,FALSE,FALSE,max(S134:S184)
+186,G3 - Build (ER),Update project decision log,"November 19, 2023",1,"November 20, 2023",Not Started,TLS,No,No,Steve Humpston,Steve Humpston,,TRUE,FALSE,FALSE,max(S135:S185)
+187,G3 - Build (ER),G3 milestone review,"November 20, 2023",1,"November 21, 2023",Not Started,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,TRUE,TRUE,max(S184:S186)
+188,ROLL UP,G4,"February 13, 2023",-,"February 19, 2024",In Progress,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,FALSE,FALSE,MIN(Q189:Q220)
+189,G4 - Launch (SoP),Submit initial Reliability Forum approval application,"April 18, 2023",7,"April 25, 2023",Not Started,TLS,No,No,Steve Humpston,Rosalinda Domingo,,FALSE,FALSE,FALSE,S65
+190,G4 - Launch (SoP),Conduct any additional testing and team engagement required by Reliability Forum application,"April 25, 2023",7,"May 2, 2023",Not Started,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,FALSE,FALSE,S189
+191,G4 - Launch (SoP),Agree CE user & troubleshooting manual & launch schedule,"April 18, 2023",14,"May 2, 2023",Not Started,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,TRUE,FALSE,S65
+192,G4 - Launch (SoP),Agree CSD instilation & user manual & launch schedule,"April 18, 2023",14,"May 2, 2023",Not Started,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,TRUE,FALSE,S66
+193,G4 - Launch (SoP),Conduct CE training,"May 2, 2023",30,"June 1, 2023",Not Started,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,FALSE,FALSE,S191
+194,G4 - Launch (SoP),Conduct CSD training,"May 2, 2023",30,"June 1, 2023",Not Started,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,FALSE,FALSE,S192
+195,G4 - Launch (SoP),Reliability Forum sign-off to conduct EMT,"May 2, 2023",7,"May 9, 2023",Not Started,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,FALSE,FALSE,"max(S190, S191, S192)"
+196,G4 - Launch (SoP),Deliver AZT device association service API & fullfilment center to implement,"June 15, 2023",60,"August 14, 2023",Not Started,AWS,Yes,No,Steve Humpston,vanidesa@amazon.com,ic.il.lin@FXN.com,FALSE,FALSE,FALSE,S136
+197,G4 - Launch (SoP),Deliver AZT device provisioning microservice API & FXN to implementation,"June 15, 2023",30,"July 15, 2023",Not Started,AWS,Yes,No,Steve Humpston,vanidesa@amazon.com,ic.il.lin@FXN.com,FALSE,FALSE,FALSE,S$136
+198,G4 - Launch (SoP),Implement on the line quality testing process,"June 15, 2023",30,"July 15, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S$136
+199,G4 - Launch (SoP),"Create manufacturing, jig & fixture design files, assembly & quality testing documentation","July 11, 2023",21,"August 1, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S$127
+200,G4 - Launch (SoP),"Build jigs & fixtures, buy tools","August 1, 2023",14,"August 15, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S199
+201,G4 - Launch (SoP),Mould PVT parts for all SKUs,"August 4, 2023",3,"August 7, 2023",Not Started,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,FALSE,FALSE,S179
+202,G4 - Launch (SoP),Fabricate PVT PCBs for all SKUs,"August 7, 2023",15,"August 22, 2023",Not Started,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,FALSE,FALSE,S201
+203,G4 - Launch (SoP),Assemble PVT for all SKUs,"August 22, 2023",5,"August 27, 2023",Not Started,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,FALSE,FALSE,"max(S202,S200)"
+204,G4 - Launch (SoP),Quality test all PVT samples to validate the production line,"August 27, 2023",7,"September 3, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,S203
+205,G4 - Launch (SoP),Ship x315 per SKU DVT smaples to EMT testers,"August 11, 2023",7,"August 18, 2023",Not Started,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,FALSE,FALSE,S181
+206,G4 - Launch (SoP),Conduct EMT trials with Reliability approval,"August 18, 2023",30,"September 17, 2023",Not Started,TLS,Yes,No,Steve Humpston,Rosalinda Domingo,,FALSE,FALSE,FALSE,"max(S205,S195)"
+207,G4 - Launch (SoP),Review EMT trial results at Reliability forum,"September 17, 2023",7,"September 24, 2023",Not Started,TLS,No,No,Steve Humpston,Rosalinda Domingo,,FALSE,FALSE,FALSE,S206
+208,G4 - Launch (SoP),Fix bugs identified in EMT trial,"September 24, 2023",14,"October 8, 2023",Not Started,AWS,No,No,Steve Humpston,vanidesa@amazon.com,ic.il.lin@FXN.com,FALSE,FALSE,FALSE,S207
+209,G4 - Launch (SoP),Conduct 2nd EMT trial,"October 8, 2023",30,"November 7, 2023",Not Started,TLS,No,No,Steve Humpston,Rosalinda Domingo,,FALSE,FALSE,FALSE,S208
+210,G4 - Launch (SoP),Pass EMT trial results at Reliability forum,"November 7, 2023",9,"November 16, 2023",Not Started,TLS,No,No,Steve Humpston,Rosalinda Domingo,,FALSE,FALSE,FALSE,S209
+211,G4 - Launch (SoP),Buy parts for production builds based on forcast,"February 13, 2023",46,"March 31, 2023",Not Started,FXN,No,No,Steve Humpston,ic.il.lin@FXN.com,,FALSE,FALSE,FALSE,Q$7
+212,G4 - Launch (SoP),Sign-off start of Mass Production with batch QA testing,"November 16, 2023",30,"December 16, 2023",Not Started,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,FALSE,TRUE,S210
+213,G4 - Launch (SoP),Ship pipe-fill volumes to Archway warehouse & locker points,"December 16, 2023",7,"December 23, 2023",Not Started,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,FALSE,FALSE,S212
+214,G4 - Launch (SoP),Market launch,"December 23, 2023",12,"January 4, 2024",Not Started,TLS,No,No,Steve Humpston,Donna Verge,,FALSE,FALSE,FALSE,S213
+215,G4 - Launch (SoP),Update risk tracker,"January 4, 2024",1,"January 5, 2024",Not Started,TLS,No,No,Steve Humpston,Steve Humpston,,TRUE,FALSE,FALSE,max(S$189:S$214)
+216,G4 - Launch (SoP),"Update status reporting against agreed KPIs, timeline & budget","January 4, 2024",1,"January 5, 2024",Not Started,TLS,No,No,Steve Humpston,Steve Humpston,,TRUE,FALSE,FALSE,max(S$189:S$214)
+217,G4 - Launch (SoP),Update project decision log,"January 4, 2024",1,"January 5, 2024",Not Started,TLS,No,No,Steve Humpston,Steve Humpston,,TRUE,FALSE,FALSE,max(S$189:S$214)
+218,G4 - Launch (SoP),G4 milestone review,"January 5, 2024",1,"January 6, 2024",Not Started,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,FALSE,TRUE,max(S215:S217)
+219,G4 - Launch (SoP),Project retrospective,"January 6, 2024",7,"January 13, 2024",Not Started,TLS,No,No,Steve Humpston,Steve Humpston,,FALSE,FALSE,TRUE,S218
+220,G4 - Launch (SoP),End of life Smart Home 1.0,"February 5, 2024",14,"February 19, 2024",Not Started,TLS,No,No,Steve Humpston,Roopesh Patel,,FALSE,FALSE,TRUE,S218+30
